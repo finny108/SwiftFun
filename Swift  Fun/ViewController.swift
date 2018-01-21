@@ -4,7 +4,7 @@
 //
 //  Created by John Finn on 21/01/2018.
 //  Copyright © 2018 HomeMadeCode. All rights reserved.......
-//  Hello what to do for the night?
+//   Hello what to do for the night?
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         buttonCount = buttonCount + 1
         
-        
+        print(buttonCount)
         
         if buttonCount >= 5 {
             view.backgroundColor = UIColor.orange
